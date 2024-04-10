@@ -3,6 +3,7 @@ import classes from './Header.module.css';
 import { FaSearch } from "react-icons/fa";
 import { BiCart } from "react-icons/bi";
 import { SlLocationPin } from "react-icons/sl";
+import Lowerheader from './Lowerheader';
 
 
 
@@ -70,6 +71,8 @@ function Header() {
 
            </div>
         </section>
+
+        <Lowerheader />
     </>
   )
 }
